@@ -190,7 +190,7 @@ function onCollect(){
   count++;
   hud.textContent='🌻 '+count;
   showMessage(messages[(count-1)%messages.length]);
-  if(count>=50){
+  if(count>=30){
     running=false;
     openPopup();
   }
